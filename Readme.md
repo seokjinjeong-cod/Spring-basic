@@ -29,4 +29,15 @@ CRUD는 존재하는 거의 대부분의 소프트웨어가 가지고있는 기�
 
 ## MVC 패턴이란?  
 MVC 패턴이란 Spring Framework에서 제공하는 웹 모듈이다.  
-MVC는 Model, View, Controller의 약자이며, 시스템 모듈을  Model, View, Controller로 나누어서 구현되어있다.
+MVC는 Model, View, Controller의 약자이며, 시스템 모듈을  Model, View, Controller로 나누어서 구현되어있다.  
+ - ### Model
+ - 어플리케이션이 “무엇”을 할 것인지를 정의.  내부 비지니스 로직을 처리하기 위한 역할  
+ - 처리되는 알고리즘, DB 와 상호작용(CRUD Create Read Update Delete), 데이터 등  
+ - ### View
+ - 화면에 “무엇” 인가를 보여주기 위한 역할
+ - 컨트롤러 하위에 종속되어, 모델이나 컨트롤러가 보여주려고 하는 모든 필요한 것들을 보여준다.  
+ - 사용자에게 “무엇”을 화면(UI)으로 보여준다
+ - ### Controller
+ - 모델이 “어떻게” 처리할 지를 알려주는 역할을 할 것이고, 모바일에서는 화면의 로직처리 부분
+ - 화면에서 사용자의 요청을 받아서 처리되는 부분을 구현되게 되며, 요청 내용을 분석해서 Model과 View에 업데이트 요청
+ - 사용자로 부터의 입력 을 받고 Model 또는 View 중개 
