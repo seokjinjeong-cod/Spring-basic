@@ -40,4 +40,19 @@ MVC는 Model, View, Controller의 약자이며, 시스템 모듈을  Model, View
  - ### Controller
  - 모델이 “어떻게” 처리할 지를 알려주는 역할을 할 것이고, 모바일에서는 화면의 로직처리 부분
  - 화면에서 사용자의 요청을 받아서 처리되는 부분을 구현되게 되며, 요청 내용을 분석해서 Model과 View에 업데이트 요청
- - 사용자로 부터의 입력 을 받고 Model 또는 View 중개 
+ - 사용자로 부터의 입력 을 받고 Model 또는 View 중개   
+
+## 스프링 AOP(Aspect Oriented Programming)  
+AOP는 Aspect Oriented Programming의 약자로 관점 지향 프로그래밍이라고 불린다.   
+관점 지향은 쉽게 말해 어떤 로직을 기준으로 핵심적인 관점, 부가적인 관점으로 나누어서 보고 그 관점을 기준으로 각각 모듈화하겠다는 것이다.  
+여기서 모듈화란 어떤 공통된 로직이나 기능을 하나의 단위로 묶는 것을 말한다.   
+예로들어 핵심적인 관점은 결국 우리가 적용하고자 하는 핵심 비즈니스 로직이 된다.   
+또한 부가적인 관점은 핵심 로직을 실행하기 위해서 행해지는 데이터베이스 연결, 로깅, 파일 입출력 등을 예로 들 수 있다.  
+AOP에서 각 관점을 기준으로 로직을 모듈화한다는 것은 코드들을 부분적으로 나누어서 모듈화하겠다는 의미다.   
+이때, 소스 코드상에서 다른 부분에 계속 반복해서 쓰는 코드들을 발견할 수 있는 데 이것을 흩어진 관심사 (Crosscutting Concerns)라 부른다. 
+  
+https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile26.uf.tistory.com%2Fimage%2F994AA3335C1B8C9D28D24B
+  
+위와 같이 흩어진 관심사를 Aspect로 모듈화하고 핵심적인 비즈니스 로직에서 분리하여 재사용하겠다는 것이 AOP의 취지다.  
+
+출처: https://engkimbs.tistory.com/746 [새로비]
