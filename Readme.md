@@ -28,5 +28,5 @@ CRUD는 존재하는 거의 대부분의 소프트웨어가 가지고있는 기�
 
 
 ## MVC 패턴이란?  
-MVC 패턴이란 Spring Framework에서 제공하는 웹 모듈이다.
+MVC 패턴이란 Spring Framework에서 제공하는 웹 모듈이다.  
 MVC는 Model, View, Controller의 약자이며, 시스템 모듈을  Model, View, Controller로 나누어서 구현되어있다.
