@@ -4,9 +4,7 @@
  - 스프링은 객체 지향 언어가 가진 강력한 특징을 살려내는 프레임워크  
  - 스프링은 좋은 객체 지향 어플리케이션을 개발할 수 있게 도와주는 프레임워크      
 
-
-Spring basic  
-https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/
+출처:https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/  
 
 ## CURD란?  
 CRUD는 존재하는 거의 대부분의 소프트웨어가 가지고있는 기본적인 데이터 처리 기능을 뜻한다.  
@@ -51,8 +49,8 @@ AOP는 Aspect Oriented Programming의 약자로 관점 지향 프로그래밍이
 AOP에서 각 관점을 기준으로 로직을 모듈화한다는 것은 코드들을 부분적으로 나누어서 모듈화하겠다는 의미다.   
 이때, 소스 코드상에서 다른 부분에 계속 반복해서 쓰는 코드들을 발견할 수 있는 데 이것을 흩어진 관심사 (Crosscutting Concerns)라 부른다. 
   
-https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile26.uf.tistory.com%2Fimage%2F994AA3335C1B8C9D28D24B
-  
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile26.uf.tistory.com%2Fimage%2F994AA3335C1B8C9D28D24B)   
+
 위와 같이 흩어진 관심사를 Aspect로 모듈화하고 핵심적인 비즈니스 로직에서 분리하여 재사용하겠다는 것이 AOP의 취지다.  
 
 출처: https://engkimbs.tistory.com/746 [새로비]
