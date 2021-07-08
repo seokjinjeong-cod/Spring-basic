@@ -51,6 +51,17 @@ AOP에서 각 관점을 기준으로 로직을 모듈화한다는 것은 코드�
   
 ![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile26.uf.tistory.com%2Fimage%2F994AA3335C1B8C9D28D24B)   
 
-위와 같이 흩어진 관심사를 Aspect로 모듈화하고 핵심적인 비즈니스 로직에서 분리하여 재사용하겠다는 것이 AOP의 취지다.  
+위와 같이 흩어진 관심사를 Aspect로 모듈화하고 핵심적인 비즈니스 로직에서 분리하여 재사용하겠다는 것이 AOP의 취지다.   
 
-출처: https://engkimbs.tistory.com/746 [새로비]
+출처: https://engkimbs.tistory.com/746?category=767795  
+
+## Spring-Data-JPA(Java Persistence API)란?  
+ORM은 "관계형 데이터베이스의 구조화된 데이터와 자바와 같은 객체 지향 언어 간의 구조적 불일치를   
+어떻게 해소할 수 있을까"라는 질문에서 나온 객체-관계 매핑 프레임워크이다. 즉, 객체와 릴레이션을   
+매핑할 때 생기는 다양한 문제들을 해결할 수 있는 솔루션이라 생각하면 된다.
+JPA은 ORM을 위한 자바 EE 표준이며 Spring-Data-JPA는 JPA를 쉽게 사용하기 위해 스프링에서 제공하고 있는 프레임워크이다.
+추상화 정도는 Spring-Data-JPA -> JPA -> Hibernate -> Datasource (왼쪽에서 오른쪽으로 갈수록 구체화) 이다.
+참고로, Hibernate는 ORM 프레임워크이며 DataSource는 스프링과 연결된 MySQL, PostgreSQL 같은 DB를 연결한 인터페이스이다.  
+
+
+출처: https://engkimbs.tistory.com/790 [새로비]
