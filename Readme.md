@@ -64,4 +64,31 @@ JPA은 ORM을 위한 자바 EE 표준이며 Spring-Data-JPA는 JPA를 쉽게 사
 참고로, Hibernate는 ORM 프레임워크이며 DataSource는 스프링과 연결된 MySQL, PostgreSQL 같은 DB를 연결한 인터페이스이다.  
 
 
-출처: https://engkimbs.tistory.com/790 [새로비]
+출처: https://engkimbs.tistory.com/790 [새로비]  
+
+## API(Application Programming Interface)란?
+API는 Application Programing Interface라는 용어로써, 어떠한 응용프로그램에서 데이터를 주고 받기 위한 방법을 의미한다.  
+어떤 특정 사이트에서 특정 데이터를 공유할 경우 어떠한 방식으로 정보를 요청해야 하는지, 그리고 어떠한 데이터를   
+제공 받을 수 있을지에 대한 규격들을 API라고 하는 것이다.  
+API는 사용하는 방법과, 용도에 따라 오픈 API와, 비공개 API 정보가 있다.  오픈 API는 말 그대로 누구나 쉽게 접근하여 정보를  
+공유하기 위해 만들어진 규격이며, 비공개 API는 권한이 있는 일부 사용자들에게만 정보를 제공하기 위해 만들어진 규격이라고 생각하면 된다.  
+
+출처: https://steemit.com/kr/@yahweh87/it-api  
+
+## JSON(JavaScript Object Notation)란?  
+ - JavaScript Object Notation라는 의미의 축약어로 데이터를 저장하거나 전송할 때 많이 사용되는 경량의 DATA 교환 형식
+ - Javascript에서 객체를 만들 때 사용하는 표현식을 의미한다.
+ - JSON 표현식은 사람과 기계 모두 이해하기 쉬우며 용량이 작아서, 최근에는 JSON이 XML을 대체해서 데이터 전송 등에 많이 사용한다.
+ - JSON은 데이터 포맷일 뿐이며 어떠한 통신 방법도, 프로그래밍 문법도 아닌 단순히 데이터를 표시하는 표현 방법일 뿐이다.  
+
+### 특징  
+ - 서버와 클라이언트 간의 교류에서 일반적으로 많이 사용된다.
+ - 자바스크립트 객체 표기법과 아주 유사하다.
+ - 자바스크립트를 이용하여 JSON 형식의 문서를 쉽게 자바스크립트 객체로 변환할 수 있는 이점이 있다.
+ - JSON 문서 형식은 자바스크립트 객체의 형식을 기반으로 만들어졌다.
+ - 자바스크립트의 문법과 굉장히 유사하지만 텍스트 형식일 뿐이다.
+ - 다른 프로그래밍 언어를 이용해서도 쉽게 만들 수 있다.
+ - 특정 언어에 종속되지 않으며, 대부분의 프로그래밍 언어에서 JSON 포맷의 데이터를 핸들링 할 수 있는 라이브러리를 제공한다.
+
+출처: https://velog.io/@surim014/JSON%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80  
+
